@@ -39,7 +39,7 @@ function calculator(){
     else{
         alert("Please enter a valid number or arithmetic sign")
     }
-    alert(r + sign + t)
+    alert(r + sign + t);
     alert(result);
     document.getElementById("first").innerHTML = r;
     document.getElementById("operator").innerHTML = sign;
