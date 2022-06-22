@@ -37,7 +37,7 @@ function calculator(){
         result = remainder(r,t);
     }
     else{
-        alert("Please enter a valid number or arithmetic sign");
+        alert("Please enter a valid number or arithmetic sign/operator");
     }
     alert(r + " " + sign + " " + t);
     alert(result);
