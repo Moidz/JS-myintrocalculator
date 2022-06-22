@@ -7,7 +7,7 @@ This is my second task on Introduction to Javascript in ZuriXI4G training.
  - HTML
 
 ## Live site URL
- https://moidz.github.io/JS-myintrocalculator/
+ 
 
 ## Resources
  -w3schools
