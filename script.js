@@ -41,7 +41,7 @@ function calculator(){
     }
     alert(result);
     alert(r + " " + sign + " " + t + " = " + result);
-    
+    alert(" Next calculation?? ")
 }
 
 calculator();
