@@ -39,12 +39,9 @@ function calculator(){
     else{
         alert("Please enter a valid number or arithmetic sign")
     }
-    alert(r + " " + sign + " " + t);
     alert(result);
-    document.getElementById("first").innerHTML = r;
-    document.getElementById("operator").innerHTML = sign;
-    document.getElementById("second").innerHTML = t;
-    document.getElementById("answer").innerHTML = result;
+    alert(r + " " + sign + " " + t + " = " + result);
+    
 }
 
 calculator();
