@@ -39,9 +39,8 @@ function calculator(){
     else{
         alert("Please enter a valid number or arithmetic sign")
     }
+    alert(r + " " + sign + " " + t);
     alert(result);
-    alert(r + " " + sign + " " + t + " = " + result);
-    alert(" Next calculation?? ");
 }
 
 calculator();
