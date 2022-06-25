@@ -17,10 +17,10 @@ function remainder(r,t){
 }
 
 function calculator(){
-    var r = Number(prompt("WELCOME TO YOUR CALCULATOR \n Enter the first number: "));
-    var t = Number(prompt("Enter the second number: "));
-    var sign = prompt("Enter arithmetic sign: ");
-    var result = 0;
+    let r = Number(prompt("WELCOME TO YOUR CALCULATOR \n Enter the first number: "));
+    let t = Number(prompt("Enter the second number: "));
+    let sign = prompt("Enter arithmetic sign: ");
+    let result = 0;
     if (sign == "+"){
         result = addition(r,t);
     }
@@ -40,7 +40,7 @@ function calculator(){
         alert("Please enter a valid number or arithmetic sign/operator");
     }
     alert(r + " " + sign + " " + t);
-    alert(result);
+    alert("Result: " + result);
 }
 
 calculator();
